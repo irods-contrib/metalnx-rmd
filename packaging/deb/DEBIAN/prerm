@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Stopping RMD service
+invoke-rc.d rmd stop
+
+# Removing PID directory
+rm -rf /var/run/.pid
+
+# Remove logs
+rm -rf /var/log/rmd.log
+
+echo "Done."

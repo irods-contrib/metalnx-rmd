@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Creating PID directory
+mkdir -p /var/run/rmd
+
+# Creating log file
+touch /var/log/rmd.log
+
+# Changing /etc/init.d/rmd mode to 755
+chmod 755 /etc/init.d/rmd
+
+# Setting level 2 for RMD service
+update-rc.d rmd defaults
+
+# Starting service
+invoke-rc.d rmd start
