@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 TMP_DIR=/tmp/emc-tmp
 PROJECT="emc-metalnx-rmd"
@@ -8,7 +8,7 @@ rm -rf $TMP_DIR
 mkdir -p $TMP_DIR
 cd $TMP_DIR
 
-cp -r $WORKSPACE/ $TMP_DIR/
+cp -r $WORKSPACE/* $TMP_DIR/
 cp -r $WORKSPACE/packaging/deb/DEBIAN $TMP_DIR/
 
 mkdir -p $TMP_DIR/$PROJECT-$VERSION/etc/init.d
@@ -27,8 +27,8 @@ chmod 755 $TMP_DIR/$PROJECT-$VERSION/DEBIAN/prerm
 
 sed -i "s/{{VERSION-NUMBER}}/$1/" $TMP_DIR/$PROJECT-$VERSION/DEBIAN/control
 sed -i "s/{{BUILD-NUMBER}}/$2/" $TMP_DIR/$PROJECT-$VERSION/DEBIAN/control
-sed -i "s/VERSION/$1/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__.py
-sed -i "s/DEV/$2/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__.py
+sed -i "s/__VERSION__/$1/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__.py
+sed -i "s/__DEV__/$2/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__.py
 
 dpkg-deb --build $TMP_DIR/$PROJECT-$VERSION
  
