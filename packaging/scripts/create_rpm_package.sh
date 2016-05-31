@@ -35,14 +35,16 @@ mkdir -p etc/init.d
 mkdir -p etc/rmd
 mkdir -p opt/rmd/src/commands
 
+
+
 echo "Copying files to SOURCES directory..."
 cp /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd/main.py opt/rmd/
 cp -R /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd/src opt/rmd/
 cp /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd/config/rmd.conf etc/rmd/
 cp /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd/rmd.centos etc/init.d/rmd
 
-sed -i "s/VERSION/$1/" opt/rmd/src/__init__.py
-sed -i "s/DEV/$2/" opt/rmd/src/__init__.py
+sed -i "s/__VERSION__/$1/" opt/rmd/src/__init__.py
+sed -i "s/__DEV__/$2/" opt/rmd/src/__init__.py
 
 echo "Creating tarball of the sources..."
 cd $RPMBUILD_DIR/SOURCES
