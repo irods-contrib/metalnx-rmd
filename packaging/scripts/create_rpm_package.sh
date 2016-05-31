@@ -23,7 +23,7 @@ echo "Creating temporary directory for source..."
 rm -rf /tmp/$PROJECT_NAME-$PROJECT_VERSION
 mkdir -p /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd
 cd /tmp/$PROJECT_NAME-$PROJECT_VERSION/rmd
-cp -r $WORKSPACE/ .
+cp -r $WORKSPACE/* .
 
 echo "Creating RPMBUILD directory tree structure..."
 cd ~/rpmbuild/SOURCES
