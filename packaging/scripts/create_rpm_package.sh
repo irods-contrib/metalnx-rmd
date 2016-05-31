@@ -9,7 +9,7 @@ if [ -d $RPMBUILD_DIR ]; then
     rm -rf $RPMBUILD_DIR
 fi
 
-rpmdev-setuptree > /dev/null
+rpmdev-setuptree > /dev/null 2>&1
 if [ $? -ne 0 ]; then
 	echo "rpmdev-setuptree is not installed on your system. Creating the RPM BUILD tree structure manually."
 	mkdir -p $RPMBUILD_DIR/SOURCES/
