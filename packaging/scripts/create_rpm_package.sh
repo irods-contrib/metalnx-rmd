@@ -55,5 +55,4 @@ echo "Building package..."
 cd ~
 rpmbuild -v -bb $RPMBUILD_DIR/SPECS/$PROJECT_NAME.spec
 
-mv /var/lib/jenkins/rpmbuild/RPMS/noarch/* $WORKSPACE/
 echo "Done."
