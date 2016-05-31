@@ -15,5 +15,5 @@ LOG_LINES = int(config.get('irods', 'log_lines_to_show'))
 # Daemon logging settings
 DAEMON_LOG_FILE = config.get('daemon', 'log_file')
 
-VERSION = 'VERSION'
-RELEASE_NUMBER = 'DEV'
+VERSION = '__VERSION__'
+RELEASE_NUMBER = '__DEV__'
