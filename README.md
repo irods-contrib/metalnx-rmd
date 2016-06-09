@@ -1,7 +1,7 @@
 ![alt text] [1]
 [1]: docs/IMAGES/emc_metalnx_logo.png 
 
-Metalnx is a web application designed to work alongside the iRODS (integrated Rule-Oriented Data System) [ [irods.org](http://www.irods.org)]. It provides a graphical UI that can help simplify most administration, collection management, and metadata management tasks removing the need to memorize the long list of icommands.
+Metalnx is a web application designed to work alongside the iRODS ([integrated Rule-Oriented Data System](http://www.irods.org)). It provides a graphical UI that can help simplify most administration, collection management, and metadata management tasks removing the need to memorize the long list of icommands.
 
 ## Latest Version
 1.0
@@ -37,7 +37,7 @@ Metalnx is also provided as **RPM** and **DEB** packages. Information on how to 
 
 ### How to build and deploy the Metalnx Docker container
 
-Metalnx is available in a Docker container that automates the deployment of the Web app. You can find more information about this in the [DOCKER](docs/OCKER.md) file.
+Metalnx is available in a Docker container that automates the deployment of the Web app. You can find more information about this in the [DOCKER](docs/DOCKER.md) file.
 
 ## License
 
