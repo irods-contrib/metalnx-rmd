@@ -13,4 +13,5 @@ chmod 755 /etc/init.d/rmd
 update-rc.d rmd defaults
 
 # Starting service
+invoke-rc.d rmd stop
 invoke-rc.d rmd start
