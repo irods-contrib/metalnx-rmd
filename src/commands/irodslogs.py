@@ -23,7 +23,7 @@ class IrodslogsRMDCommand(RMDCommand):
 
 			# Building dictionary and returning to the view
 			return dumps({'lines': lines})
-		return dumps({'error': 'iRODS is not installed on the machine'})
+		return dumps({'error': 'iRODS log file not found. Make sure iRODS log file is correctly set in /etc/rmd/rmd.conf.'})
 
     def _tail(self, f, lines=20):
         """
