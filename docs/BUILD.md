@@ -1,34 +1,23 @@
-<font color="#3892CF"> EMC METALNX RMD PACKAGE GUIDE
-====================================================
+METALNX RMD PACKAGE GUIDE
+=========================
 
-<font color="#3892CF"> Build From Source Instructions
-=====================================================
+Build From Source Instructions
+==============================
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0
-
-6/2016 </font>
-
-----------------------------------
-
-<font color="#000000">
-Copyright © 2015-16 EMC Corporation.
+Copyright © 2015-2017 Dell Inc.
 
 This software is provided under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
+The information in this file is provided “as is.” Dell Inc. makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
 
 -------------------------------- 
 
-<br>
-<font color="#0066CC"> <font size=+2> __INTRODUCTION__ </font>
+__INTRODUCTION__
 
-<font color="#000000"> <a name="Introduction"></a>
+<a name="Introduction"></a>
 
 This tutorial explains how to package Metalnx RMD from scratch.
 
-## Version
-1.0
- 
 ## Building RMD RPM and DEB packages
 
 Before building RMD packages, make sure you have the metalnx-rmd source code downloaded in your environment and **cd** to its source tree root. You will see a folder called `packaging`. This folder contains all scripts and configuration files necessary to create both RPM and DEB packages.

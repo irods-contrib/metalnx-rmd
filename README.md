@@ -28,7 +28,7 @@ Metalnx RMD is also provided as **RPM** and **DEB** packages. Information on how
 
 ## License
 
-Copyright © 2015-16 EMC Corporation.
+Copyright © 2015-2017 Dell Inc.
 
 This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
 

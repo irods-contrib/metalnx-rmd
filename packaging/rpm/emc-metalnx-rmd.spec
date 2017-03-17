@@ -1,17 +1,17 @@
 Name:       emc-metalnx-rmd
 Version:	VERSION
 Release:    DEV
-Summary:    EMC MetaLnx Remote Monitoring Tool
+Summary:    MetaLnx Remote Monitoring Tool
 
 Group:      System Environment
 License:    MIT
-URL:        http://www.emc.com
+URL:        http://www.dellemc.com
 Source0:    emc-metalnx-rmd-VERSION-DEV.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
-This is a deamon to allow the EMC MetaLnx UI to communicate with this machine
+This is a deamon to allow the MetaLnx UI to communicate with this machine
 and get metrics.
 
 %prep

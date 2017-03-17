@@ -1,43 +1,30 @@
-<font color="#3892CF"> EMC METALNX
-===================================
+METALNX RMD
+===========
 
-<font color="#3892CF"> Metalnx RMD Installation Guide
-=========================================
+Metalnx RMD Installation Guide
+==============================
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0 
-
-6/2016 </font>
-
-----------------------------------
-
-<font color="#000000">
-Copyright © 2015-16 EMC Corporation.
+Copyright © 2015-2017 Dell Inc.
 
 This software is provided under the Software license provided in the <a href="LICENSE"> LICENSE </a> file.
 
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
+The information in this file is provided “as is.” Dell Inc. makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
 
 -------------------------------- 
 
-<font color="#0066CC"> <font size=+2> __TABLE OF CONTENTS__ </font>
-
-<font color="#000000"> <a name="TOC"></a>
-
-<font size=+1> 
+<a name="TOC"></a>
+__TABLE OF CONTENTS__
 
 1. [Introduction](#introduction)
 2. [Overview](#metalnx_RMD_overview)
 3. [Metalnx RMD Installation](#metalnx_RMD_installation)
 4. [Metalnx RMD Commands](#metalnx_RMD_commands)
 
-</font>
-
 ----------------------------------
 
-<br>
-<font color="#0066CC"> <font size=+2> __INTRODUCTION__ </font> <a name="introduction"></a>
+<a name="introduction"></a>
+__INTRODUCTION__ 
 
-<font color="#000000">
 The [Metalnx Web][metalnx_web_github_repo] interface contains a dashboard that provides real-time information about the machines on the grid. For the UI to retrieve all this information, it uses the RMD (Remote Monitoring Daemon) which should be installed on each server in the iRODS grid.
 
 RMD is a lightweight webserver that accepts limited HTTP requests and responds with JSON data. There are a few pre-defined requests to which RMD is programmed to respond to. It runs as a Linux-service with the server name:  **rmd**.
@@ -58,10 +45,8 @@ Metalnx RMD has been tested on the following Linux distributions as indicated:
 - CentOS 6 – verified Metalnx will install and start.
 - Ubuntu 14 – verified Metalnx will install and start.
 
-<br>
-<font color="#0066CC"> <font size=+2> __Metalnx RMD Overview__ </font></font> <a name="metalnx_RMD_overview"></a>
-
-<font color="#000000">
+<a name="metalnx_RMD_overview"></a>
+__Metalnx RMD Overview__
 
 Metalnx RMD is a small, lightweight daemon which is installed (via .rpm or .deb package) on each iCAT and resource server in the grid.  Metalnx RMD provides, on demand, basic availability information of each server in the iRODS grid which allows Metalnx to report on the overall health of the grid.  
 
@@ -75,10 +60,8 @@ The Metalnx application parses the information to build the dashboard and drill 
 [[Back to: Table of Contents](#TOC)]
 
 ----------
-<br>
-<font color="#0066CC"> <font size=+2> __METALNX RMD INSTALLATION__ </font> <a name="metalnx_RMD_installation"></a>
-
-<font color="#000000">
+<a name="metalnx_RMD_installation"></a>
+__METALNX RMD INSTALLATION__ 
 
 ### Installation Process Overview ###
 
@@ -135,9 +118,8 @@ The lines in this file correspond as follows:
 
 [[Back to: Table of Contents](#TOC)]
 
-<br>
 <a name="metalnx_RMD_commands"></a>
-<font color="#0066CC"> <font size=+2> __METALNX RMD COMMANDS__ </font> <a name="metalnx_RMD_commands"></a>
+__METALNX RMD COMMANDS__
 
 Metalnx RMD responds to the following commands sent to is over the listen port.
 

@@ -6,7 +6,7 @@
 # Default-Stop:         
 # Required-Start:       $local_fs $remote_fs $network
 # Required-Stop:        $local_fs $remote_fs $network
-# Short-Description:    EMC Orion Remote Monitoring Daemon
+# Short-Description:    Metalnx Remote Monitoring Daemon
 ### END INIT INFO
 
 # Source function library.
@@ -19,7 +19,7 @@ lockfile=/var/lock/rmd.lock
 RETVAL=0
 
 start() {
-        log_daemon_msg "Starting EMC Orion RMD" "rmd" || true
+        log_daemon_msg "Starting Metalnx RMD" "rmd" || true
         start_daemon -p $pidfile /usr/bin/python $rmdctl start $pidfile
         RETVAL=$?
         echo
@@ -28,7 +28,7 @@ start() {
 }
 
 stop() {
-	log_daemon_msg "Stopping EMC Orion RMD" "rmd" || true
+	log_daemon_msg "Stopping Metalnx RMD" "rmd" || true
 	killproc -p ${pidfile} /usr/bin/python
 	RETVAL=$?
 	echo

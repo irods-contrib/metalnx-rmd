@@ -4,4 +4,4 @@ Section: misc
 Priority: optional
 Architecture: all
 Maintainer: Henrique Nogueira <henrique.nogueira@emc.com>
-Description: EMC MetaLnx Remote Monitoring Daemon
+Description: MetaLnx Remote Monitoring Daemon
