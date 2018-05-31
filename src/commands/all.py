@@ -22,7 +22,7 @@ class AllRMDCommand(RMDCommand):
         mounts_results = MountsRMDCommand().outputReport()
         serverstatus_results = ServerstatusRMDCommand().outputReport()
         version_results = VersionRMDCommand().outputReport()
-        
+
         response = dict()
         response['cpu'] = loads(cpu_results)
         response['cpustat'] = loads(cpustat_results)

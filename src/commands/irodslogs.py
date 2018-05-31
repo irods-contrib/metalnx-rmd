@@ -9,7 +9,7 @@ class IrodslogsRMDCommand(RMDCommand):
     def outputReport(self):
 
 		if os.path.isdir(SERVER_LOGS_DIR):
-	
+
 			# Getting the correct file to show
 			logfiles = sorted([ f for f in os.listdir(SERVER_LOGS_DIR) if f.startswith('rodsLog')])
 			log_to_show = logfiles[-1]

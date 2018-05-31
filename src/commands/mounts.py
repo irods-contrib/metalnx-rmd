@@ -26,10 +26,10 @@ class MountsRMDCommand(RMDCommand):
 
         for line in lines:
             line_parts = line.split(' ')
-            
+
             if len(line_parts) < 4:
                 continue
-            
+
             mount = {}
             mount['type'] = line_parts[4]
             mount['local_path'] = line_parts[2]

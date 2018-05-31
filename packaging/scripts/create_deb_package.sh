@@ -31,4 +31,4 @@ sed -i "s/__VERSION__/$1/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__
 sed -i "s/__DEV__/$2/" $TMP_DIR/$PROJECT-$VERSION/usr/local/rmd/src/__init__.py
 
 dpkg-deb --build $TMP_DIR/$PROJECT-$VERSION
- 
+

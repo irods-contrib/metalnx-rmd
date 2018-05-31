@@ -4,7 +4,7 @@
 <font color="#3892CF"> Metalnx RMD Installation Guide
 =========================================
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0 
+<font color="#A6A6A6"> <font size=+2> Revision 1.0
 
 6/2016 </font>
 
@@ -15,15 +15,15 @@ Copyright © 2015-16 EMC Corporation.
 
 This software is provided under the Software license provided in the <a href="LICENSE"> LICENSE </a> file.
 
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
+The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose.
 
--------------------------------- 
+--------------------------------
 
 <font color="#0066CC"> <font size=+2> __TABLE OF CONTENTS__ </font>
 
 <font color="#000000"> <a name="TOC"></a>
 
-<font size=+1> 
+<font size=+1>
 
 1. [Introduction](#introduction)
 2. [Overview](#metalnx_RMD_overview)
@@ -63,15 +63,15 @@ Metalnx RMD has been tested on the following Linux distributions as indicated:
 
 <font color="#000000">
 
-Metalnx RMD is a small, lightweight daemon which is installed (via .rpm or .deb package) on each iCAT and resource server in the grid.  Metalnx RMD provides, on demand, basic availability information of each server in the iRODS grid which allows Metalnx to report on the overall health of the grid.  
+Metalnx RMD is a small, lightweight daemon which is installed (via .rpm or .deb package) on each iCAT and resource server in the grid.  Metalnx RMD provides, on demand, basic availability information of each server in the iRODS grid which allows Metalnx to report on the overall health of the grid.
 
 ![alt text] [2]
 [2]: IMAGES/Install_figure_2.png "Figure 2 - An Example iRODS Grid with Metalnx Installed"
 
-Metalnx Remote Monitor Daemon (RMD) is installed on the ICAT server and each iRODS resource server.  RMD runs as the user iRODS and listens for a request on a port of the customer’s choosing via a configuration file (port 8000 is the default).  When a Metalnx user views the dashboard page it issues update requests to the RMD daemon in the grid which will report memory, disk, and iRODS application status via JSON packets back to Metalnx.  
+Metalnx Remote Monitor Daemon (RMD) is installed on the ICAT server and each iRODS resource server.  RMD runs as the user iRODS and listens for a request on a port of the customer’s choosing via a configuration file (port 8000 is the default).  When a Metalnx user views the dashboard page it issues update requests to the RMD daemon in the grid which will report memory, disk, and iRODS application status via JSON packets back to Metalnx.
 
 The Metalnx application parses the information to build the dashboard and drill down pages.  (<strong> Note: </strong> Metalnx RMD is not required for the application to work, but without it the Dashboard page will have incomplete information and show each iRODS server without RMD to be in a <em> Warning </em> state.) </li>
- 
+
 [[Back to: Table of Contents](#TOC)]
 
 ----------
@@ -102,7 +102,7 @@ For information on how to install Python, refer to:  [https://www.python.org/](h
 <a name="metalnx_RMD_installation"></a>
 ### Metalnx RMD Installation ###
 
-RMD can be built as distribution-specific installation packages using the build instructions. 
+RMD can be built as distribution-specific installation packages using the build instructions.
 
 Install the RMD package on CentOS as root via the command:
 
@@ -114,12 +114,12 @@ Install the RMD package on a Debian distribution as root via the command:
 
 ##### Controlling Metalnx RMD #####
 
-By default, the RMD runs on port 8000. This property is editable in the configuration file of the daemon, located at <span style="font-family: Courier New;">  /etc/rmd/rmd.conf: </span> 
+By default, the RMD runs on port 8000. This property is editable in the configuration file of the daemon, located at <span style="font-family: Courier New;">  /etc/rmd/rmd.conf: </span>
 
      [daemon]
      ip=0.0.0.0
      port=8000
-    
+
      [irods]
      server_logs_dir=/var/lib/irods/iRODS/server/log
      log_lines_to_show=20
@@ -179,7 +179,7 @@ Metalnx RMD responds to the following commands sent to is over the listen port.
 
 ##### Confirm RMD Acccess #####
 
-Once RMD is installed and configured, a quick test can be done to ensure that RMD is correctly working. 
+Once RMD is installed and configured, a quick test can be done to ensure that RMD is correctly working.
 
 Open a browser window and access: `http://<IP_OF_THE_RMD_MACHINE>:<PORT>/disk`
 It should list all the disk-related information of your machine in JSON format.  For example:

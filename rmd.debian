@@ -3,7 +3,7 @@
 ### BEGIN INIT INFO
 # Provides:             rmd
 # Default-Start:        2
-# Default-Stop:         
+# Default-Stop:
 # Required-Start:       $local_fs $remote_fs $network
 # Required-Stop:        $local_fs $remote_fs $network
 # Short-Description:    EMC Orion Remote Monitoring Daemon

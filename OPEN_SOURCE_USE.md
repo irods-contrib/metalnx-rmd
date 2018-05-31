@@ -4,7 +4,7 @@
 <font color="#3892CF"> Open Source Usage
 =========================================
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0 
+<font color="#A6A6A6"> <font size=+2> Revision 1.0
 
 6/2016 </font>
 
@@ -15,9 +15,9 @@ Copyright © 2015-16 EMC Corporation.
 
 This software is provided under the Software license provided in the <a href="LICENSE"> LICENSE </a> file.
 
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose. 
+The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose.
 
--------------------------------- 
+--------------------------------
 
 <br>
 <font color="#0066CC"> <font size=+2> __OVERVIEW__ </font> <a name="introduction"></a>
@@ -27,23 +27,23 @@ The information in this file is provided “as is.” EMC Corporation makes no r
 Metalnx (the application), the Metalnx Remote Monitor Daemon, the Metalnx MSI package make use of Open Source Packages as follows:
 
 <table>
-   
+
    <tr>
       <td> Open Source Package </td>
       <td> Revision </td>
       <td> License </td> <td> License Reference </td>
       <td> Source Code Reference </td>
-   
+
    <tr>
-      <td> Bootstrap </td> 
-      <td> 3.2.0 </td> <td> BSD 3-clause </td> 
+      <td> Bootstrap </td>
+      <td> 3.2.0 </td> <td> BSD 3-clause </td>
       <td> <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" title="Bootstrap License"> Bootstrap License </a></td>
       <td><a href="https://github.com/twbs/bootstrap" title="Bootstrap Source Code"> Bootstrap Source Code </a></td>
 
    <tr>
-      <td> D3(Chart Library) 
-      </td> <td> 3.5.5 </td> 
-      <td> MIT </td> 
+      <td> D3(Chart Library)
+      </td> <td> 3.5.5 </td>
+      <td> MIT </td>
       <td> <a href="https://opensource.org/licenses/BSD-3-Clause" title="D3"> D3 License <a></td>
       <td><a href="https://github.com/d3/d3" title="D3 Source Code"> D3 Source Code </a></td>
 
@@ -52,61 +52,61 @@ Metalnx (the application), the Metalnx Remote Monitor Daemon, the Metalnx MSI pa
       <td> 1.10.9 </td> <td> MIT </td>
       <td> <a href="https://datatables.net/license/mit" title="Datatables Plug-In" > Datatables License</a></td>
       <td> <a href="https://github.com/DataTables/DataTablesSrc/" title="Datatables Source Code"> Datatables Source Code </a></td>
-   
+
    <tr>
       <td> Hibernate: ORM </td>
       <td> 4.1.7 </td>
-      <td> LGLP v2.1 </td> 
+      <td> LGLP v2.1 </td>
       <td><a href="http://hibernate.org/community/license/" title="Hibernate: ORM"> Hibernate:ORM License </a> </td>
       <td><a href="https://github.com/hibernate/hibernate-orm" title="Hibernate:ORM Source Code"> Hibernate:ORM Source Code </a></td>
-   
+
    <tr>
-      <td> Hibernate: Validator </td> 
-      <td> 5.1.2 </td> 
-      <td> Apache License v2.0 </td> 
+      <td> Hibernate: Validator </td>
+      <td> 5.1.2 </td>
+      <td> Apache License v2.0 </td>
       <td> <a href="https://raw.githubusercontent.com/hibernate/hibernate-validator/master/license.txt" title="Hibernate: Validator"> Hibernate:Validator License <a></td>
       <td><a href="https://github.com/hibernate/hibernate-validator" title="Hibernate:Validator Source Code"> Hibernate:Validator Source Code </a></td>
-  
+
    <tr>
-      <td> Jackson </td> 
-      <td> 2.6.3 </td> 
-      <td> Apache License v2.0 </td> 
+      <td> Jackson </td>
+      <td> 2.6.3 </td>
+      <td> Apache License v2.0 </td>
       <td> <a href="http://www.apache.org/licenses/" title="Jackson"> Jackson License <a></td>
       <td> Jackson <a href="https://github.com/FasterXML/jackson-core" title="Jackson Core Source Code"> Core </a> / <a href="https://github.com/FasterXML/jackson-annotations" title="Jackson Annotations Source Code"> Annotations </a> Source Code </td>
-   
+
    <tr>
-      <td> Jargon </td> 
-      <td> 4.0.2.3 </td> 
-      <td> BSD 3-clause </td> 
+      <td> Jargon </td>
+      <td> 4.0.2.3 </td>
+      <td> BSD 3-clause </td>
       <td> <a href="https://github.com/DICE-UNC/jargon/blob/master/LICENSE.txt" title="Jargon"> Jargon License <a></td>
       <td> <a href="https://github.com/DICE-UNC/jargon" title="Jargon Source Code"> Jargon Source Code </a></td>
-   
+
    <tr>
-      <td> jQuery </td> 
-      <td> 1.11.1 </td> 
-      <td> MIT </td> 
+      <td> jQuery </td>
+      <td> 1.11.1 </td>
+      <td> MIT </td>
       <td> <a href="https://github.com/jquery/jquery/blob/master/LICENSE.txt" title="jQuery"> jQuery License <a></td>
       <td> <a href="https://github.com/jquery/jquery" title="jQuery Source Code"> jQuery Source Code </a></td>
-   
-  
+
+
    <tr>
-      <td> jQueryUI </td> 
-      <td> 1.11.4 </td> 
-      <td> MIT </td> 
+      <td> jQueryUI </td>
+      <td> 1.11.4 </td>
+      <td> MIT </td>
       <td> <a href="https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt" title="jQueryUI"> jQueryUI License <a></td>
       <td> <a href="https://github.com/jquery/jquery-ui" title="jQueryUI Source Code"> jQueryUI Source Code </a></td>
-   
+
    <tr>
-      <td> Spring Framework </td> 
-      <td> 4.1.1 / 3.2.6 </td> 
-      <td> Apache License v2.0 </td> 
+      <td> Spring Framework </td>
+      <td> 4.1.1 / 3.2.6 </td>
+      <td> Apache License v2.0 </td>
       <td> <a href="http://www.apache.org/licenses/LICENSE-2.0" title="Spring"> Spring License </a></td>
       <td> Spring <a href="https://github.com/spring-projects/spring-framework" title="Framework"> Framework </a> / <a href="https://github.com/spring-projects/spring-security/" title="Security"> Security </a> Framework Source Code </td>
 
    <tr>
       <td> Thymeleaf </td>
-      <td>2.1.3</td> 
-      <td>Apache License v2.0 </td> 
+      <td>2.1.3</td>
+      <td>Apache License v2.0 </td>
       <td> <a href="https://www.apache.org/licenses/LICENSE-2.0.html" title="Thymeleaf"> Thymleaf License </a></td>
       <td> <a href="https://github.com/thymeleaf/thymeleaf" title="Thymeleaf Source Code"> Thymeleaf Source Code </a></td>
 
@@ -178,7 +178,7 @@ Copyright (c) 2007- Tatu Saloranta, tatu.saloranta@iki.fi
 
 **Jargon**
 
-Copyright (c) 2005-2016, Regents of the University of California, the University of North Carolina at Chapel Hill, and the Data Intensive Cyberinfrastructure Foundation. All rights reserved. 
+Copyright (c) 2005-2016, Regents of the University of California, the University of North Carolina at Chapel Hill, and the Data Intensive Cyberinfrastructure Foundation. All rights reserved.
 
 **jQuery**
 
@@ -190,11 +190,11 @@ Copyright jQuery Foundation and other contributors
 
 **Spring Framework**
 
-Copyright 2002-2014 the original author or authors. 
+Copyright 2002-2014 the original author or authors.
 
 **Spring Security**
 
-Copyright 2002-2016 the original author or authors. 
+Copyright 2002-2016 the original author or authors.
 
 **Thymeleaf**
 
@@ -261,7 +261,7 @@ This prelude is not part of the license.
 
 In the original BSD license, the occurrence of "copyright holder" in the 3rd clause read "ORGANIZATION", placeholder for "University of California". In the original BSD license, both occurrences of the phrase "COPYRIGHT HOLDERS AND CONTRIBUTORS" in the disclaimer read "REGENTS AND CONTRIBUTORS".
 
-------------------- 
+-------------------
 
 ### Datatables Plugin for JQuery 1.10.9
 
@@ -285,7 +285,7 @@ The above copyright notice and this permission notice shall be included in all c
 .
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-------------------- 
+-------------------
 
 ### Hibernate ORM 4.1.7
 
@@ -697,10 +697,10 @@ END OF TERMS AND CONDITIONS
 License
 iRODS Copyright and Licensing
 
-iRODS is open source software released under a BSD License, see license text in "iRODS License Terms and Conditions" below. 
-The BSD license has been described in very general terms as allowing you to do whatever you want to with the software and 
+iRODS is open source software released under a BSD License, see license text in "iRODS License Terms and Conditions" below.
+The BSD license has been described in very general terms as allowing you to do whatever you want to with the software and
 source code as long as you acknowledge who wrote it and that, as with any open source software, there is no warranty and you're using the code "as is."
-In the spirit of collaborative open source software, the iRODS community encourages you to communicate with us, letting us know what features you like, 
+In the spirit of collaborative open source software, the iRODS community encourages you to communicate with us, letting us know what features you like,
 features that would be useful, problems, bugs, suggestions, etc., and to perhaps contribute source code.
 The iRODS community has formed the Data Intensive Cyberinfrastructure Foundation, a 501(c)(3) nonprofit corporation established to serve
  as the home of the iRODS open source community over the long term. If you choose to contribute new code, you'll receive full acknowledgment. All you do is complete the Contributor's Agreement, under which you retain copyright ownership
@@ -709,16 +709,16 @@ Note: The above text is an educational overview of iRODS open source licensing, 
 
 iRODS License Terms and Conditions Notice
 
-Copyright (c) 2005-2011, Regents of the University of California, the University of North Carolina, and the Data Intensive Cyberinfrastructure Foundation 
+Copyright (c) 2005-2011, Regents of the University of California, the University of North Carolina, and the Data Intensive Cyberinfrastructure Foundation
 All rights reserved.
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 Neither the name of the University of California, San Diego (UCSD) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT 
-NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------
@@ -866,7 +866,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 You must give any other recipients of the Work or Derivative Works a copy of this License; and
 You must cause any modified files to carry prominent notices stating that You changed the files; and
 You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
-If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. 
+If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
 
 You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
 5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
@@ -927,7 +927,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 You must give any other recipients of the Work or Derivative Works a copy of this License; and
 You must cause any modified files to carry prominent notices stating that You changed the files; and
 You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
-If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. 
+If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
 
 You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
 5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
@@ -947,7 +947,7 @@ END OF TERMS AND CONDITIONS
 ### Thymeleaf 2.1.3
 
 
-Thymeleaf is Open Source Software, and it is distributed under the terms of the Apache License 2.0. 
+Thymeleaf is Open Source Software, and it is distributed under the terms of the Apache License 2.0.
 
 Apache License
 Version 2.0, January 2004

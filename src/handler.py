@@ -19,12 +19,12 @@ class RMDHttpHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         else:
             request_url = userRequestPath
             callback_function = None
-        
+
         # Getting module name
         module_name = 'all'
         if request_url != '':
             module_name = request_url
-        
+
         # Getting class name
         if request_url != '':
             commandClassName = request_url.capitalize() + 'RMDCommand'

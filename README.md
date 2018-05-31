@@ -1,5 +1,5 @@
 ![alt text] [1]
-[1]: docs/IMAGES/emc_metalnx_logo.png 
+[1]: docs/IMAGES/emc_metalnx_logo.png
 
 Metalnx RMD is a web application designed to work alongside the iRODS ([integrated Rule-Oriented Data System][irods]) and [Metalnx Web][metalnx-web]. It gets information about health status and resource usage from data grid servers and send them back to the administrator UI on Metalnx.
 
