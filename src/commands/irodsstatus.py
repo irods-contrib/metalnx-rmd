@@ -1,4 +1,3 @@
-import os
 import re
 from .base import RMDCommand
 from json import dumps
