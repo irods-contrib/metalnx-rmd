@@ -5,7 +5,7 @@ Metalnx RMD is a web application designed to work alongside the iRODS ([integrat
 ## Latest Version
 2.0
 
-Note: The revision number has been updated to match the revision release of the Metalnx application ([Metalnx Web])[metalnx-web].  The functionality is the same as in Revision 1.0
+Note: The revision number has been updated to match the revision release of the Metalnx application ([Metalnx Web])[https://github.com/irods-contrib/metalnx-web].  The functionality is the same as in Revision 1.0
 
 ## Core Features
 
@@ -28,8 +28,9 @@ Metalnx RMD must be built as **RPM** and/ or **DEB** packages depending on the f
 The full documentation on how to install Metalnx RMD using `.rpm` and `.deb` packages is available in the [INSTALL](docs/INSTALL.md) document.
 
 ## License
-ll
+
 Copyright © 2015-17 Dell EMC
+
 Copyright © 2018 The University of North Carolina at Chapel Hill
 
 This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
