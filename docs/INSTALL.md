@@ -110,7 +110,7 @@ The lines in this file correspond as follows:
 
 <br>
 <a name="metalnx_RMD_commands"></a>
-<font color="#0066CC"> <font size=+2> __METALNX RMD COMMANDS__ </font> <a name="metalnx_RMD_commands"></a>
+## Metalnx RMD Commands
 
 Metalnx RMD responds to the following commands sent to is over the listen port.
 
