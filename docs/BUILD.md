@@ -1,21 +1,20 @@
-<font color="#3892CF"> EMC METALNX RMD PACKAGE GUIDE
-====================================================
+<font color="#3892CF"> METALNX RMD PACKAGE GUIDE
+================================================
 
 <font color="#3892CF"> Build From Source Instructions
 =====================================================
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0
+<font color="#A6A6A6"> <font size=+2> Revision 2.0
 
-6/2016 </font>
-
+6/2018 </font>
+ 
 ----------------------------------
 
 <font color="#000000">
-Copyright © 2015-16 EMC Corporation.
+Copyright © 2015-17 Dell EMC <br>
+Copyright © 2015-17 The University of North Carolina at Chapel Hill
 
-This software is provided under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose.
+This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
 
 --------------------------------
 
@@ -27,7 +26,7 @@ The information in this file is provided “as is.” EMC Corporation makes no r
 This tutorial explains how to package Metalnx RMD from scratch.
 
 ## Version
-1.0
+2.0
 
 ## Building RMD RPM and DEB packages
 
@@ -41,17 +40,17 @@ Under `metalnx-rmd/packaging/rpm` is the file `emc-metalnx-rmd.spec` file which 
 
 To create the package use the script `create_rpm_package.sh` located at `metalnx-rmd/packaging/scripts`. This script was uses a environment variable, WORKSPACE, to track where the top level directory for the build is.  This variable must be set prior to using this script.  An example on how to create a RPM package using this script is:
 
-    $ WORKSPACE=$(pwd) ./packaging/scripts/create_rpm_package.sh 1.0 1
+    $ WORKSPACE=$(pwd) ./packaging/scripts/create_rpm_package.sh 2.0 0
 
-When the script is finished you will have an `.rpm` packaged named `emc-metalnx-rmd-1.0-1.noarch.rpm`  ready for deployment.  This will will be located at `~/rpmbuild/noarch`.
+When the script is finished you will have an `.rpm` packaged named `emc-metalnx-rmd-2.0-0.noarch.rpm`  ready for deployment.  This will will be located at `~/rpmbuild/noarch`.
 
 ### DEB
 
 Under `metalnx-rmd/packaging/deb/DEBIAN` is a `control` file. This file is used to create the Metalnx RMD DEB package. The DEB creation script is `create_deb_package.sh` located at `metalnx-rmd/packaging/scripts`. This script uses a environment variable, WORKSPACE, to track where the top level directory for the build is.  This variable must be set prior to using this script.  An example on how to create a DEB package using this script is:
 
-    $ WORKSPACE=$(pwd) ./packaging/scripts/create_rpm_package.sh 1.0 1
+    $ WORKSPACE=$(pwd) ./packaging/scripts/create_deb_package.sh 2.0 0
 
-After the script is done, you will have a file named `emc-metalnx-rmd-1.0-1.deb`  ready for deployment.  This will will be located at `/tmp/emc-tmp/emc-metalnx-rmd-1.0-1.deb`.
+After the script is done, you will have a file named `emc-metalnx-rmd-2.0-0.deb`  ready for deployment.  This will will be located at `/tmp/emc-tmp/emc-metalnx-rmd-2.0-0.deb`.
 
 ### Troubleshooting
 
