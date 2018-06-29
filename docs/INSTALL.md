@@ -30,11 +30,9 @@ This software is provided under the Software license provided in the <a href="LI
 
 ----------------------------------
 
-<br>
-<font color="#0066CC"> <font size=+2> __INTRODUCTION__ </font> <a name="introduction"></a>
+## INTRODUCTION <a name="introduction"></a>
 
-<font color="#000000">
-The [Metalnx Web][metalnx_web_github_repo] interface contains a dashboard that provides real-time information about the machines on the grid. For the UI to retrieve all this information, it uses the RMD (Remote Monitoring Daemon) which should be installed on each server in the iRODS grid.
+The [Metalnx Web](https://github.com/irods-contrib/metalnx-web) interface contains a dashboard that provides real-time information about the machines on the grid. For the UI to retrieve all this information, it uses the RMD (Remote Monitoring Daemon) which should be installed on each server in the iRODS grid.
 
 RMD is a lightweight webserver that accepts limited HTTP requests and responds with JSON data. There are a few pre-defined requests to which RMD is programmed to respond to. It runs as a Linux-service with the server name:  **rmd**.
 
@@ -42,11 +40,7 @@ RMD requires Python (version 2.6 or later) be installed on the iRODS provider an
 
 Metalnx will run without the RMD package. However, RMD is necessary to allow for complete dashboard and server detail page functions in Metalnx. With this package installed disk, memory, and CPU usage data of each server will be available.
 
-__Assumptions__
-
-In this installation guide, to fully install Metalnx, we will:
-
-- Show how to install the _Metalnx Remote Monitor Daemon (RMD)_ packages on the ICAT and resource servers.  Metalnx uses these packages to monitor and report the active status of the iRODS grid.
+In this installation guide we will explain how to install the Metalnx Remote Monitor Daemon (RMD) package on the Provider and each Consumer iRODS server in the iRODS grid.
 
 <font color="#0066CC"> <font size=+2> __Metalnx RMD Overview__ </font></font> <a name="metalnx_RMD_overview"></a>
 
