@@ -1,21 +1,17 @@
-<font color="#3892CF"> EMC METALNX
-===================================
 
-<font color="#3892CF"> Metalnx RMD Installation Guide
-=========================================
+# Metalnx RMD Installation Guide
 
-<font color="#A6A6A6"> <font size=+2> Revision 1.0
+Revision 2.0
 
-6/2016 </font>
+6/2016
 
 ----------------------------------
 
-<font color="#000000">
-Copyright © 2015-16 EMC Corporation.
+Copyright © 2015-17 Dell EMC
+
+Copyright © 2018 The University of North Carolina at Chapel Hill
 
 This software is provided under the Software license provided in the <a href="LICENSE"> LICENSE </a> file.
-
-The information in this file is provided “as is.” EMC Corporation makes no representations or warranties of any kind with respect to the information in this publication, and specifically disclaims implied warranties of merchantability or fitness for a particular purpose.
 
 --------------------------------
 
@@ -42,7 +38,7 @@ The [Metalnx Web][metalnx_web_github_repo] interface contains a dashboard that p
 
 RMD is a lightweight webserver that accepts limited HTTP requests and responds with JSON data. There are a few pre-defined requests to which RMD is programmed to respond to. It runs as a Linux-service with the server name:  **rmd**.
 
-RMD requires Python (version 2.6 or later) be installed on the ICAT and each iRODS resource server.  Please, note that iRODS should be setup on the server prior to RMD installation.
+RMD requires Python (version 2.6 or later) be installed on the iRODS provider and each iRODS consumer server.  Please, note that iRODS should be setup on the server prior to RMD installation.
 
 Metalnx will run without the RMD package. However, RMD is necessary to allow for complete dashboard and server detail page functions in Metalnx. With this package installed disk, memory, and CPU usage data of each server will be available.
 
@@ -52,13 +48,6 @@ In this installation guide, to fully install Metalnx, we will:
 
 - Show how to install the _Metalnx Remote Monitor Daemon (RMD)_ packages on the ICAT and resource servers.  Metalnx uses these packages to monitor and report the active status of the iRODS grid.
 
-Metalnx RMD has been tested on the following Linux distributions as indicated:
-
-- CentOS 7 – all functional testing performed.
-- CentOS 6 – verified Metalnx will install and start.
-- Ubuntu 14 – verified Metalnx will install and start.
-
-<br>
 <font color="#0066CC"> <font size=+2> __Metalnx RMD Overview__ </font></font> <a name="metalnx_RMD_overview"></a>
 
 <font color="#000000">
