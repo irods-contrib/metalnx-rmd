@@ -43,6 +43,10 @@ Metalnx will run without the RMD package. However, RMD is necessary to allow for
 
 In this installation guide we will explain how to install the _Metalnx Remote Monitor Daemon (RMD) package_ on the Provider and each Consumer iRODS server in the iRODS grid.
 
+[[Back to: Table of Contents](#TOC)]
+
+--------------
+
 <a name="metalnx_RMD_overview"></a>
 ## Metalnx RMD Overview
 
@@ -55,7 +59,6 @@ The Metalnx application parses the information to build the dashboard and drill 
 [[Back to: Table of Contents](#TOC)]
 
 ----------
-<br>
 
 <a name="metalnx_RMD_installation"></a>
 ## Metalnx RMD Installation
@@ -107,6 +110,8 @@ The lines in this file correspond as follows:
 **NOTE:** If you change the port number for RMD in the file `/etc/rmd/rmd.conf` you must ALSO change the port number that Metalnx uses to communicate with RMD by editing the Metalnx properties file (`metalnx.properties`) in `/etc/irods-ext`.  This must be done after Metalnx is installed. Look for and edit the line `rmd.connection.port=8000`.
 
 [[Back to: Table of Contents](#TOC)]
+
+-------------
 
 <a name="metalnx_RMD_commands"></a>
 ## Metalnx RMD Commands
