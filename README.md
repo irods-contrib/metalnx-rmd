@@ -29,7 +29,7 @@ The full documentation on how to install Metalnx RMD using `.rpm` and `.deb` pac
 
 ## License
 
-Copyright © 2015-17 Dell EMC
+Copyright © 2015-17 Dell EMC <br>
 Copyright © 2018 The University of North Carolina at Chapel Hill
 
 This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
