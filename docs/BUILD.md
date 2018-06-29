@@ -1,4 +1,4 @@
-<font color="#3892CF"> METALNX RMD PACKAGE GUIDE
+<font color="#3892CF"> METALNX RMD PACKAGE GUIDE </font>
 ================================================
 
 <font color="#3892CF"> Build From Source Instructions
