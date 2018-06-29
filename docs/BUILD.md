@@ -1,8 +1,6 @@
-METALNX RMD PACKAGE GUIDE
-=========================
+# METALNX RMD PACKAGE GUIDE
 
-Build From Source Instructions
-==============================
+## Build From Source Instructions
 
 Revision 2.0
 
@@ -16,14 +14,11 @@ Copyright © 2015-17 The University of North Carolina at Chapel Hill
 
 This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
 
---------------------------------
+-------------------------------
 
-INTRODUCTION
+## INTRODUCTION
 
 This tutorial explains how to package Metalnx RMD from scratch.
-
-## Version
-2.0
 
 ## Building RMD RPM and DEB packages
 
