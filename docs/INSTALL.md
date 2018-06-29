@@ -30,7 +30,7 @@ This software is provided under the Software license provided in the <a href="LI
 
 ----------------------------------
 
-## INTRODUCTION <a name="introduction"></a>
+## __INTRODUCTION__ <a name="introduction"></a>
 
 The [Metalnx Web](https://github.com/irods-contrib/metalnx-web) interface contains a dashboard that provides real-time information about the machines on the grid. For the UI to retrieve all this information, it uses the RMD (Remote Monitoring Daemon) which should be installed on each server in the iRODS grid.
 
@@ -40,7 +40,7 @@ RMD requires Python (version 2.6 or later) be installed on the iRODS provider an
 
 Metalnx will run without the RMD package. However, RMD is necessary to allow for complete dashboard and server detail page functions in Metalnx. With this package installed disk, memory, and CPU usage data of each server will be available.
 
-In this installation guide we will explain how to install the Metalnx Remote Monitor Daemon (RMD) package on the Provider and each Consumer iRODS server in the iRODS grid.
+In this installation guide we will explain how to install the _Metalnx Remote Monitor Daemon (RMD) package_ on the Provider and each Consumer iRODS server in the iRODS grid.
 
 <font color="#0066CC"> <font size=+2> __Metalnx RMD Overview__ </font></font> <a name="metalnx_RMD_overview"></a>
 
