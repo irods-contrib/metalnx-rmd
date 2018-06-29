@@ -1,27 +1,24 @@
-<font color="#3892CF"> METALNX RMD PACKAGE GUIDE </font>
-================================================
+METALNX RMD PACKAGE GUIDE
+=========================
 
-<font color="#3892CF"> Build From Source Instructions
-=====================================================
+Build From Source Instructions
+==============================
 
-<font color="#A6A6A6"> <font size=+2> Revision 2.0
+Revision 2.0
 
-6/2018 </font>
+6/2018
  
 ----------------------------------
 
-<font color="#000000">
-Copyright © 2015-17 Dell EMC <br>
+Copyright © 2015-17 Dell EMC
+
 Copyright © 2015-17 The University of North Carolina at Chapel Hill
 
 This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
 
 --------------------------------
 
-<br>
-<font color="#0066CC"> <font size=+2> __INTRODUCTION__ </font>
-
-<font color="#000000"> <a name="Introduction"></a>
+INTRODUCTION
 
 This tutorial explains how to package Metalnx RMD from scratch.
 
