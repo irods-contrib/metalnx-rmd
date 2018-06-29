@@ -12,7 +12,7 @@ Copyright © 2015-17 Dell EMC
 
 Copyright © 2015-17 The University of North Carolina at Chapel Hill
 
-This software is provided under the Software license provided in the [LICENSE](LICENSE) file.
+This software is provided under the Software license provided in the [LICENSE](https://github.com/irods-contrib/metalnx-rmd/blob/master/LICENSE.md) file.
 
 -------------------------------
 
