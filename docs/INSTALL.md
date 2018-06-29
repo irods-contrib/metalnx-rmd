@@ -30,7 +30,8 @@ This software is provided under the Software license provided in the <a href="LI
 
 ----------------------------------
 
-## __INTRODUCTION__ <a name="introduction"></a>
+<a name="introduction"></a>
+## INTRODUCTION
 
 The [Metalnx Web](https://github.com/irods-contrib/metalnx-web) interface contains a dashboard that provides real-time information about the machines on the grid. For the UI to retrieve all this information, it uses the RMD (Remote Monitoring Daemon) which should be installed on each server in the iRODS grid.
 
