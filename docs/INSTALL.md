@@ -56,26 +56,19 @@ The Metalnx application parses the information to build the dashboard and drill 
 
 ----------
 <br>
-<font color="#0066CC"> <font size=+2> __METALNX RMD INSTALLATION__ </font> <a name="metalnx_RMD_installation"></a>
 
-<font color="#000000">
+<a name="metalnx_RMD_installation"></a>
+## Metalnx RMD Installation
 
 ### Installation Process Overview ###
 
-- Verify the minimum system requirements for RMD are met.  This may include installing Python.
-- Install the appropriate version of the Metalnx remote monitor daemon (RMD) on the ICAT server and each iRODS resource server.
+- Verify the minimum system requirements for RMD are met.  This may include installing Python 2.6 or later on each server.
+- Install the appropriate version of the Metalnx remote monitor daemon (RMD) on the iRODS Provider and each iRODS Consumer server.
 - Configure RMD on each server if the default configuration does not meet the requirements of your environment.
 
 ### System Requirements ###
 
-Figure 3 shows the relationship between iRODS and Metalnx components.
-
-![alt text] [3]
-[3]: IMAGES/Install_figure_3.png "Figure 3 - Relationship between iRODS/Metalnx components"
-
-##### Python #####
-
-Python 2.6 or later version is required to run the RMD service and must be installed on the ICAT and each iRODS Resource server that will run RMD.
+Python 2.6 or later version is required to run the RMD service and must be installed on the iRODS Provider server and each iRODS Consumer server that will run RMD.
 
 For information on how to install Python, refer to:  [https://www.python.org/](https://www.python.org)
 
@@ -86,15 +79,15 @@ RMD can be built as distribution-specific installation packages using the build 
 
 Install the RMD package on CentOS as root via the command:
 
- 	# rpm -ivh emc-metalnx-rmd-1.0-1.noarch.rpm
+ 	# rpm -ivh emc-metalnx-rmd-2.0-0.noarch.rpm
 
 Install the RMD package on a Debian distribution as root via the command:
 
-	 # dpkg -i emc-metalnx-rmd-1.0-1.deb
+	 # dpkg -i emc-metalnx-rmd-2.0-0.deb
 
 ##### Controlling Metalnx RMD #####
 
-By default, the RMD runs on port 8000. This property is editable in the configuration file of the daemon, located at <span style="font-family: Courier New;">  /etc/rmd/rmd.conf: </span>
+By default, the RMD runs on port 8000. This property is editable in the configuration file of the daemon, located at `/etc/rmd/rmd.conf:`
 
      [daemon]
      ip=0.0.0.0
@@ -106,12 +99,12 @@ By default, the RMD runs on port 8000. This property is editable in the configur
 
 The lines in this file correspond as follows:
 
-- `ip:` The IP address should not be changed. The value <span style="font-family: Courier New'"> 0.0.0.0 </span> is set for the machine to be visible by outside requests.
+- `ip:` The IP address should not be changed. The value `0.0.0.0` is set for the machine to be visible by outside requests.
 - `port:` the port on where RMD should listen to requests. This can be changed to meet any firewall or security needs of your environment.
 -  `server_logs_dir:` the directory where iRODS server logs are kept.
 -  `log_lines_to_show:` the number of lines to get from the end of the iRODS server log to show in the Metalnx UI on the server details page. This is set initially to the last 20 lines
 
-**NOTE:** If you change the port number for RMD in the file <span style="font-family: Courier New;">  /etc/rmd/rmd.conf </span> you must ALSO change the port number that Metalnx knows to communicate with RMD at.  This must be done after Metalnx is installed.  We describe how to do this in the **[Setup Metalnx](#setup_metalnx)** section.
+**NOTE:** If you change the port number for RMD in the file `/etc/rmd/rmd.conf` you must ALSO change the port number that Metalnx uses to communicate with RMD by editing the Metalnx properties file (`metalnx.properties`) in `/etc/irods-ext`.  This must be done after Metalnx is installed. Look for and edit the line `rmd.connection.port=8000`.
 
 [[Back to: Table of Contents](#TOC)]
 
