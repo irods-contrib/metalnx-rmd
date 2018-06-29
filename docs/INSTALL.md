@@ -48,7 +48,7 @@ In this installation guide we will explain how to install the _Metalnx Remote Mo
 
 Metalnx RMD is a small, lightweight daemon which is installed (via .rpm or .deb package) on the iRODS Provider and each iRODS Consumer server in the grid.  Metalnx RMD provides, on demand, basic availability information of each server in the iRODS grid which allows Metalnx to report on the overall health of the grid on its dashboard page to iRODS administrators.
 
-["Figure 2 - An Example iRODS Grid with Metalnx Installed"] (IMAGES/Install_figure_2.png)
+!["Figure 2 - An Example iRODS Grid with Metalnx Installed"] (IMAGES/Install_figure_2.png)
 
 Metalnx Remote Monitor Daemon (RMD) is installed on the ICAT server and each iRODS resource server.  RMD runs as the user iRODS and listens for a request on a port of the customer’s choosing via a configuration file (port 8000 is the default).  When a Metalnx user views the dashboard page it issues update requests to the RMD daemon in the grid which will report memory, disk, and iRODS application status via JSON packets back to Metalnx.
 
