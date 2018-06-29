@@ -108,7 +108,6 @@ The lines in this file correspond as follows:
 
 [[Back to: Table of Contents](#TOC)]
 
-<br>
 <a name="metalnx_RMD_commands"></a>
 ## Metalnx RMD Commands
 
